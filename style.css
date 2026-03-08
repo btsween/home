@@ -202,11 +202,15 @@ a {
 .resume-item {
   display: flex;
   gap: 24px;
+  padding-bottom: 32px;
   margin-bottom: 32px;
+  border-bottom: 1px solid var(--border);
 }
 
 .resume-item:last-child {
   margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .resume-item-meta {
