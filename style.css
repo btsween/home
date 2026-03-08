@@ -257,6 +257,29 @@ a {
   margin-bottom: 12px;
 }
 
+.resume-bullets {
+  list-style: none;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.resume-bullets li {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  padding-left: 16px;
+  position: relative;
+}
+
+.resume-bullets li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--text-faint);
+}
+
 /* Tags */
 .resume-tags {
   display: flex;
